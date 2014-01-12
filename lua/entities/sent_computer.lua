@@ -11,7 +11,7 @@ ENT.Spawnable = true;
 ENT.Category = "gTerminal";
 
 function ENT:StartTouch(hitEnt)
-	if hitEnt:GetClass() == "cd_rom" then
+	if hitEnt:GetClass() == "cd_av" then
 		hitEnt:Remove();
 	end
 end
